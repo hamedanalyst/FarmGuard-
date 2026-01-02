@@ -1,0 +1,46 @@
+group 'io.fynn.pytorch_mobile'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 36
+
+    // Added namespace to satisfy newer Android Gradle Plugin requirements
+    namespace 'io.fynn.pytorch_mobile'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 36
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies{
+    // Use matching PyTorch Android AARs so native symbols align
+    implementation 'org.pytorch:pytorch_android:1.13.1'
+    implementation 'org.pytorch:pytorch_android_torchvision:1.13.1'
+    implementation 'com.facebook.soloader:nativeloader:0.11.0'
+}
+ 

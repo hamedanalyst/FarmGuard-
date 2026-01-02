@@ -1,0 +1,27 @@
+name: pytorch_mobile
+description: A flutter plugin for pytorch model inference. Supports image models as well as custom models.
+version: 0.2.2
+homepage: https://github.com/fynnmaarten/flutter_pytorch_mobile
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.2
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.fynn.pytorch_mobile
+        pluginClass: PyTorchMobilePlugin
+      ios:
+        pluginClass: PyTorchMobilePlugin
