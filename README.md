@@ -1,4 +1,4 @@
-#### FarmGuard
+### FarmGuard
 
 **On-Device Crop Disease Detection with PyTorch Mobile \& Flutter**
 
@@ -174,8 +174,8 @@ Future improvements could include:
 
 ##### **Author**
 
-Hamed Moustapha Nsangou
-Aspiring Computer Scientist & Engineer
+Hamed Moustapha Nsangou |
+Aspiring Computer Scientist & Engineer |
 Interested in machine learning systems, embedded AI, Edge deployment, and real-world impact
 
 
