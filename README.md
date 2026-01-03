@@ -1,4 +1,4 @@
-##### FarmGuard
+#### FarmGuard
 
 **On-Device Crop Disease Detection with PyTorch Mobile \& Flutter**
 
@@ -14,6 +14,8 @@ In many rural communities, especially in developing regions, crop disease can se
 FarmGuard was built to explore a key question:
 
 **Can practical machine learning tools run entirely on-device, offline, and on low-cost smartphones?**
+
+This question connects my interests in machine learning, systems engineering, edge AI, and technology for real-world impact.
 
 
 ##### **What This Project Demonstrates**
@@ -173,7 +175,9 @@ Future improvements could include:
 ##### **Author**
 
 Hamed Moustapha Nsangou
-Aspiring Computer Scientist \& Engineer
+
+Aspiring Computer Scientist & Engineer
+
 Interested in machine learning systems, embedded AI, Edge deployment, and real-world impact
 
 
